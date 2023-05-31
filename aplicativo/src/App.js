@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Var from '../src/componentes/ex_import.png'
 
-function App() {
+
+export default function App() {
+  var nome = "Rafael"
+  var sobrenome = "Mileris"
+  const nome_completo = nome + sobrenome
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <section>
+      <p>Meu nome é: {nome}</p>
+      <p>Meu sobrenome é: {sobrenome}</p>
+      <p>{"Meu nome completo é: " + nome + " " + sobrenome}</p>
+      <p>Meu nome completo é: {nome_completo}</p>
+      <img src={Var} />
+    </section>
+  )
 }
-
-export default App;
