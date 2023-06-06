@@ -14,5 +14,8 @@ Para instalar o NODE basta acessar a página oficial *https://nodejs.org/pt-br*,
 O React cria uma estrutura básica inicial para a sua aplicação, nessa estrutura vai conter todos os arquivos necessários para que a aplicação funcione da melhor forma.  
 Para criar esses arquivos, basta abrir o CMD (Prompt de comando), execute como administrador e altere o caminho para o local onde a pasta que você criou está localizada. Para navegar entre as pastas basta rodar o comando: `cd` e colocar o caminho da pasta que foi criada.  
 Após realizar esse procedimento, insira o código: `npx create-react-app <nome da aplicação>`  
-> prompt de comando > execute como administrador > cd "caminho da pasta"  > `npx create-react-app <nome da aplicação>`   
+> prompt de comando > execute como administrador > cd "caminho da pasta"  > `npx create-react-app <nome da aplicação>`  
+
+Após o aplicativo ser criado com sucesso, é necessário que você indique o caminho atual do aplicativo e digite `npm start`  
+> `cd <nome da aplicação criada>` > **npm start**  
 

@@ -7,11 +7,19 @@ import Dados from './componentes/Dados'
 export default function App() {
   var nome = "Rafael"
   var sobrenome = "Mileris"
+  const somar=(num1, num2)=>{
+    return num1+num2
+  }
   return (
     <>
     <Header/>
     <Corpo/>
-    <Dados nome={nome} sobrenome={sobrenome} nome_completo={nome + " " + sobrenome}/>
+    <Dados 
+    nome={nome} 
+    sobrenome={sobrenome} 
+    nome_completo={nome + " " + sobrenome}
+    somar={somar}
+    />
     </>
   )
 }
