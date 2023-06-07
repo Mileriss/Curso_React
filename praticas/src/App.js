@@ -1,14 +1,13 @@
 import React from 'react'
 import Cabecalho from './componentes/cabecalho'
 import Corpo from './componentes/corpo'
-import Secao from './componentes/secao'
+
 
 export default function App() {
   return (
-    <body>
+    <div>
       <Cabecalho></Cabecalho>
-      <Corpo></Corpo>
-      <Secao nome="Rafael" sobrenome="Mileris"></Secao>
-    </body >
+      <Corpo nome="Rafael" sobrenome="Mileris" idade="25"></Corpo>
+    </div>
   )
 }
